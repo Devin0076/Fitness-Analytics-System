@@ -1,0 +1,27 @@
+{
+  "name": "fitness-analytics-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devin0076/Fitness-Analytics-System.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Devin0076/Fitness-Analytics-System/issues"
+  },
+  "homepage": "https://github.com/Devin0076/Fitness-Analytics-System#readme",
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
