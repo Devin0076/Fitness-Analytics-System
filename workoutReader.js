@@ -22,7 +22,7 @@ function readWorkoutCsv(filePath) {
       .pipe(csv())
       .on("headers", (headers) => {
         sawHeaders = true;
-        const required = ["date", "type", "minutes"];
+        const required = ["date", "type"];
         if (!headers || headers.length === 0 || !required.every((h) => headers.includes(h))) {
           headerProblem = true;
         }
